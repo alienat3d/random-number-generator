@@ -12,7 +12,7 @@ const randomNum = () => {
 		maxValue = minValue - maxValue;
 		minValue = minValue - maxValue;
 		min.value = minValue;
-		max.value = maxValue; 
+		max.value = maxValue;
 	}
 	const num = Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
 
